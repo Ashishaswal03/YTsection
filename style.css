@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: rgba(255, 255, 255, 0.909);
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.header{
+    background-color: #0660D4;
+    height: 250px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items:center ;
+    background-image: url(/images/background.png);
+    background-size: 344px;
+    background-position-x: 100%;
+    background-position-y: 51%;
+    background-repeat: no-repeat;
+    
+     padding: 3rem;
+    
+}
+h1{
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.header img{
+    max-width: 60px;
+    
+    border-radius: 50%;
+    border: 3px solid white;
+}
+section{
+    margin-left: 1rem;
+    position: relative;
+}
+img{
+    position: absolute;
+}
+.img1 {
+    z-index: 10;
+    left: 0;
+  }
+  
+  .img2 {
+    z-index: 5;
+    left: 40px;  /* Offset to partially cover the first image */
+  }
+  
+  .img3 {
+    z-index: 4;
+    left: 80px;  /* Offset more to cover the second image */
+  }
+  .img4 {
+    z-index: 2;
+    left: 120px;  /* Offset more to cover the second image */
+  }
+  .img5 {
+    z-index: 1;
+    left: 150px;  /* Offset more to cover the second image */
+  }
